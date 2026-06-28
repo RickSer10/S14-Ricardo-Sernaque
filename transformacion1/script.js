@@ -8,9 +8,6 @@ const resultado = document.getElementById("resultado");
 
 const fab = document.getElementById("fab");
 
-
-// Mostrar/Ocultar menú
-
 menuBtn.addEventListener("click", () => {
 
   if(menu.style.display === "block"){
@@ -22,21 +19,18 @@ menuBtn.addEventListener("click", () => {
 
 });
 
-// Cambiar tema claro/oscuro
 themeBtn.addEventListener("click", () => {
 
   document.body.classList.toggle("dark");
 
 });
 
-// Evento táctil (Tap)
 touchArea.addEventListener("click", () => {
 
   resultado.innerHTML = "Has realizado un TAP";
 
 });
 
-// Botón flotante
 fab.addEventListener("click", () => {
 
   alert("Botón flotante presionado");

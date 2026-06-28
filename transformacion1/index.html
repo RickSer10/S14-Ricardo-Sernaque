@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile UX Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mobile UX Demo</h1>
+        <button id="menuBtn">≡</button>
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li>Inicio</li>
+            <li>Componentes</li>
+            <li>Gestos</li>
+            <li>Configuración</li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="card">
+            <h2>Bienvenido</h2>
+            <p>Aplicación demostrativa de interfaces móviles.</p>
+        </section>
+
+        <button id="fab">+</button>
+
+        <section class="card">
+            <h2>Prueba de Gestos</h2>
+
+            <div id="touchArea">
+                Toca aquí
+            </div>
+
+            <p id="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>Modo Oscuro</h2>
+
+            <button id="themeBtn">
+                Cambiar Tema
+            </button>
+        </section>
+
+    </main>
+
+    <!-- Archivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

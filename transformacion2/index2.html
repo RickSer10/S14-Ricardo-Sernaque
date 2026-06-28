@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <span class="logo">🍽️ Restaurante <span class="dot">Digital</span></span>
+            <button class="hamburger" id="btnMenu" aria-label="Abrir menú" aria-expanded="false">≡</button>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <p class="eyebrow">Carta del día</p>
+        <h1>Pide desde tu mesa</h1>
+        <p>Toca «Agregar» en cada plato y revisa tu pedido abajo. Sin apps, sin filas.</p>
+    </section>
+
+    <main class="grid" id="grid"></main>
+
+    <div class="order-bar">
+        <div>
+            <div class="label">Tu pedido</div>
+            <div class="count">Pedidos</div>
+        </div>
+        <div class="badge" id="contador">0</div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</body>
+
+</html>
